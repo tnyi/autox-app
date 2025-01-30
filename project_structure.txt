@@ -1,0 +1,19 @@
+autojs_desktop/
+├── main.py
+├── requirements.txt
+├── src/
+│   ├── ui/
+│   │   ├── main_window.py
+│   │   ├── device_list.py
+│   │   ├── script_list.py
+│   │   └── screen_view.py
+│   ├── core/
+│   │   ├── adb_controller.py
+│   │   ├── device_manager.py
+│   │   ├── script_manager.py
+│   │   └── scrcpy_manager.py
+│   └── database/
+│       ├── db_manager.py
+│       └── models.py
+└── resources/
+    └── autojs.apk 
